@@ -27,9 +27,9 @@ document.querySelector('.btn-roll').addEventListener('click', function () {
         var dicedom2 = document.querySelector('.dice2');
         var diceDom = document.querySelector('.dice');
         dicedom2.style.display = 'block';
-        dicedom2.src = 'dice-' + dice2 + '.png';
+        dicedom2.src = 'photos/dice-' + dice2 + '.png';
         diceDom.style.display = 'block';
-        diceDom.src = 'dice-' + dice + '.png';
+        diceDom.src = 'photos/dice-' + dice + '.png';
 
 
         if (dice !== 1 && dice2 !==1) {
